@@ -1,4 +1,4 @@
-```markdown
+
 # Policy Insights
 
 Policy Insights is a full-stack application designed to provide semantic search capabilities for text-based documents. Users can upload .txt or .pdf files, and the system extracts, chunks, and embeds the text content. This allows for natural language querying to retrieve the most contextually relevant snippets from the document library.
@@ -27,32 +27,6 @@ Policy Insights is a full-stack application designed to provide semantic search 
 - **Library**: React
 - **Build Tool**: Vite
 - **Language**: JavaScript (JSX)
-
-## Project Structure
-
-The project is organized into two main parts: a backend solution and a frontend application.
-
-policy-insights-poc/
-├── backend/
-│   ├── PI.Api/
-│   │   ├── Controllers/        # Handles incoming HTTP requests
-│   │   ├── Data/                # DbContext for Entity Framework
-│   │   ├── DTOs/                # Data Transfer Objects for API contracts
-│   │   ├── Models/              # C# classes representing database tables
-│   │   ├── Services/            # Business logic and external service integrations
-│   │   ├── Utils/               # Helper functions like the text chunker
-│   │   ├── PI.Api.csproj
-│   │   └── Program.cs           # Application startup and configuration
-│   └── PI.sln
-└── frontend/
-    ├── src/
-    │   ├── components/          # Reusable React components (Upload, Search)
-    │   ├── api.js               # Functions for communicating with the backend API
-    │   ├── App.jsx              # Main application component
-    │   ├── index.css            # Global styles
-    │   └── main.jsx             # Frontend application entry point
-    └── package.json
-
 
 ## Setup and Installation
 
